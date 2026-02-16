@@ -1,0 +1,10 @@
+
+version: 2
+models:
+  - name: dbt__silver_cost_center
+    description: Processed and cleaned cost center table
+    columns:
+      - name: cost_center_name
+        tests:
+          - unique
+          - not_null
