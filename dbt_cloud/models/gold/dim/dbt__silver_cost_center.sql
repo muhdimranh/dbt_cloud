@@ -1,1 +1,0 @@
-select * from {{ source("bronze_table", "bronze_cost_center_logs") }}

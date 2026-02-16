@@ -1,9 +1,0 @@
-sources:
-  - name: bronze_table
-    database: edh_dev
-    schema: bronze_ada
-    description: Raw and unprocessed tables from SAP inside bronze layer
-    tables:
-      - name: bronze_cost_center_logs
-        description: Raw and unprocessed cost center tables from SAP inside bronze layer
-    
